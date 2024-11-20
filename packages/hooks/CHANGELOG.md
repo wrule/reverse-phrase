@@ -1,5 +1,11 @@
 # @rp/hooks
 
+## 1.0.2
+
+### Patch Changes
+
+- 2000 毫秒
+
 ## 1.0.1
 
 ### Patch Changes

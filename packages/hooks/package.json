@@ -13,7 +13,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "react": "^18"
+    "esbuild": "0.24.0",
+    "react": "^18",
+    "typescript": "^5"
   },
   "peerDependencies": {
     "react": "^18"

@@ -13,7 +13,7 @@ const useTimeNow = () => {
     updateTimeNow();
     const timer = setInterval(() => {
       updateTimeNow();
-    }, 1000);
+    }, 2000);
     return () => {
       clearInterval(timer);
     };

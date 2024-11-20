@@ -6,7 +6,7 @@
   "module": "./dist/index.js",
   "main": "./dist/index.js",
   "scripts": {
-    "build": "node ./build.js",
+    "build": "node ./build.js && tsc",
     "tree": "tree . -F -I 'node_modules'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

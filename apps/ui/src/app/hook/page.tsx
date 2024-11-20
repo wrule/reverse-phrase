@@ -1,9 +1,9 @@
 'use client';
-import * as a from '@rp/hooks';
+import { useTimeNow } from '@rp/hooks';
 
 const HookPage = () => {
-  console.log(Object.keys(a));
-  return <div>Hook: {1234}</div>;
+  const time = useTimeNow();
+  return <div>Hook: {time}</div>;
 };
 
 export default HookPage;

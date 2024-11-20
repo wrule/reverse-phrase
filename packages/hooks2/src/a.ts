@@ -1,0 +1,1 @@
+import { useTimeNow } from './index';

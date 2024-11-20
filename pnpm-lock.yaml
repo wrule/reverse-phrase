@@ -47,6 +47,9 @@ importers:
 
   packages/hooks:
     devDependencies:
+      '@types/react':
+        specifier: ^18
+        version: 18.3.12
       esbuild:
         specifier: 0.24.0
         version: 0.24.0

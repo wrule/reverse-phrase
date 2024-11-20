@@ -7,6 +7,9 @@
   "main": "index.js",
   "scripts": {
     "dev:ui": "cd ./apps/ui && pnpm run dev",
+    "change": "changeset",
+    "version": "changeset version",
+    "release": "changeset publish",
     "tree": "tree . -F -I 'node_modules'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -1,25 +1,8 @@
 'use client';
-
-import { useEffect, useState } from 'react';
+import useTimeNow from '@/hooks/useTimeNow';
 
 const HookPage = () => {
-  const nowTimeStr = () => new Date().toLocaleString();
-
-  const [timeNow, setTimeNow] = useState<string>(nowTimeStr());
-  const updateTimeNow = () => {
-    setTimeNow(nowTimeStr());
-  };
-
-  useEffect(() => {
-    updateTimeNow();
-    const timer = setInterval(() => {
-      updateTimeNow();
-    }, 1000);
-    return () => {
-      clearInterval(timer);
-    };
-  }, []);
-
+  const timeNow = useTimeNow();
   return <div>Hook: {timeNow}</div>;
 };
 

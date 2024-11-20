@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 
+export
 const useTimeNow = () => {
   const nowTimeStr = () => new Date().toLocaleString();
 
@@ -20,5 +21,3 @@ const useTimeNow = () => {
 
   return timeNow;
 };
-
-export default useTimeNow;

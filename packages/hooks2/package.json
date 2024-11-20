@@ -1,6 +1,6 @@
 {
-  "name": "@rp/hooks",
-  "version": "1.0.1",
+  "name": "@rp/hooks2",
+  "version": "1.0.0",
   "description": "",
   "type": "module",
   "module": "./dist/index.js",

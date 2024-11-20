@@ -6,6 +6,7 @@
   "module": "index.js",
   "main": "index.js",
   "scripts": {
+    "tree": "tree . -F -I 'node_modules'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

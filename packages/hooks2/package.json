@@ -21,5 +21,8 @@
   },
   "peerDependencies": {
     "react": "^18"
+  },
+  "dependencies": {
+    "@rp/hooks": "workspace:*"
   }
 }

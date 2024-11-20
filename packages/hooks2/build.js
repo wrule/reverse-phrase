@@ -5,7 +5,7 @@ await esbuild.build({
   outfile: './dist/index.js',
   bundle: true,
   format: 'esm',
-  external: ['react'],
+  external: ['react', '@rp/hooks'],
   platform: 'neutral',
   target: 'es2016',
   minify: true,

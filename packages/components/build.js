@@ -9,4 +9,5 @@ await esbuild.build({
   platform: 'neutral',
   target: 'es2016',
   minify: true,
+  mainFields: ['module', 'main'],
 });

@@ -1,5 +1,4 @@
 'use client';
-import React from 'react';
 import { useTimeNow } from '@rp/hooks';
 
 const TimeDisplay = ({ initialTime }: { initialTime: string }) => {

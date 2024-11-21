@@ -1,4 +1,4 @@
-import TimeDisplay from '@/components/TimeDisplay';
+import TimeDisplay from '@rp/components';
 
 const nowTimeStr = () => new Date().toLocaleString();
 

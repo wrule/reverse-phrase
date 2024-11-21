@@ -1,5 +1,12 @@
 # @rp/components
 
+## 1.0.4
+
+### Patch Changes
+
+- Updated dependencies
+  - @rp/hooks@1.0.6
+
 ## 1.0.3
 
 ### Patch Changes

@@ -1,5 +1,14 @@
 # ui
 
+## 0.1.7
+
+### Patch Changes
+
+- Updated dependencies
+  - @rp/hooks@1.0.6
+  - @rp/components@1.0.4
+  - @rp/hooks2@1.0.5
+
 ## 0.1.6
 
 ### Patch Changes

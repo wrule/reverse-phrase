@@ -1,0 +1,28 @@
+{
+  "name": "@rp/components",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "module": "./dist/index.js",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "node ./build.js && tsc",
+    "tree": "tree . -F -I 'node_modules'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18",
+    "esbuild": "0.24.0",
+    "react": "^18",
+    "typescript": "^5"
+  },
+  "peerDependencies": {
+    "react": "^18"
+  },
+  "dependencies": {
+    "@rp/hooks": "workspace:*"
+  }
+}

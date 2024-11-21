@@ -85,6 +85,25 @@ importers:
         specifier: ^5
         version: 5.6.3
 
+  packages/components:
+    dependencies:
+      '@rp/hooks':
+        specifier: workspace:*
+        version: link:../hooks
+    devDependencies:
+      '@types/react':
+        specifier: ^18
+        version: 18.3.12
+      esbuild:
+        specifier: 0.24.0
+        version: 0.24.0
+      react:
+        specifier: ^18
+        version: 18.3.1
+      typescript:
+        specifier: ^5
+        version: 5.6.3
+
   packages/hooks:
     devDependencies:
       '@types/react':

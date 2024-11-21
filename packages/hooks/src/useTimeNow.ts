@@ -1,10 +1,11 @@
 import { useEffect, useState } from 'react';
 
+const nowTimeStr = () => new Date().toLocaleString();
+
 export
 const useTimeNow = () => {
-  const nowTimeStr = () => new Date().toLocaleString();
+  const [timeNow, setTimeNow] = useState<string>('');
 
-  const [timeNow, setTimeNow] = useState<string>(nowTimeStr());
   const updateTimeNow = () => {
     setTimeNow(nowTimeStr());
   };
@@ -13,7 +14,7 @@ const useTimeNow = () => {
     updateTimeNow();
     const timer = setInterval(() => {
       updateTimeNow();
-    }, 2000);
+    }, 1000);
     return () => {
       clearInterval(timer);
     };

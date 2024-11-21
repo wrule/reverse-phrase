@@ -1,10 +1,12 @@
 import TimeDisplay from '@/components/TimeDisplay';
 
+const nowTimeStr = () => new Date().toLocaleString();
+
 const HookPage = () => {
   return <div>
     <div>Hook测试页面</div>
     <div>
-      <TimeDisplay initialTime="服务器时间" />
+      <TimeDisplay initialTime={nowTimeStr()} />
     </div>
   </div>;
 };

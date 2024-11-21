@@ -3,8 +3,8 @@ import { useEffect, useState } from 'react';
 const nowTimeStr = () => new Date().toLocaleString();
 
 export
-const useTimeNow = () => {
-  const [timeNow, setTimeNow] = useState<string>('');
+const useTimeNow = (initialTime = '') => {
+  const [timeNow, setTimeNow] = useState<string>(initialTime);
 
   const updateTimeNow = () => {
     setTimeNow(nowTimeStr());

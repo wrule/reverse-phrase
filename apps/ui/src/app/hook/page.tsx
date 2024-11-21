@@ -1,9 +1,12 @@
-'use client';
-import { useTimeNow } from '@rp/hooks';
+import TimeDisplay from '@/components/TimeDisplay';
 
 const HookPage = () => {
-  const time = useTimeNow('服务端时间');
-  return <div>Hook: {time}</div>;
+  return <div>
+    <div>Hook测试页面</div>
+    <div>
+      <TimeDisplay initialTime="服务器时间" />
+    </div>
+  </div>;
 };
 
 export default HookPage;

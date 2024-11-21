@@ -1,8 +1,8 @@
 'use client';
-import { useTimeNow } from '@rp/hooks';
+import { useHook2 } from '@rp/hooks2';
 
 const HookPage = () => {
-  const time = useTimeNow();
+  const time = useHook2();
   return <div>Hook: {time}</div>;
 };
 
